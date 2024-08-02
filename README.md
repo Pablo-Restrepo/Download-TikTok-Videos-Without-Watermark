@@ -1,4 +1,4 @@
-# Download-TikTok-Videos-Without-Watermark
+# Download TikTok Videos Without Watermark
 
 This project uses an external API to download TikTok videos without watermarks.
 
@@ -21,7 +21,7 @@ This project uses an external API to download TikTok videos without watermarks.
     pip install -r requirements.txt
     ```
 
-# Usage
+## Usage
 Here is an example of how to use the DownloadTikTokVideos class to download a TikTok video:
 
 ```python
