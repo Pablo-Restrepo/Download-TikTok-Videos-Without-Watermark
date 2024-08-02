@@ -6,6 +6,7 @@ Example:
     >>> URL = 'https://www.tiktok.com/@ray.amv000/video/7273108118777662725'
     >>> downloader = DownloadTikTokVideos()
     >>> video_path = downloader.download_video(URL)
+    >>> print(f'Video downloaded to: {video_path}')
 
 Methods:
     download_video(url: str) -> str: Downloads the TikTok video without watermarks.
@@ -104,7 +105,7 @@ class DownloadTikTokVideos:
             None
         """
 
-        print(f'Downloading {url}...')
+        print(f'Downloading: {url}...')
         download_link = self.__get_download_link(url)
 
         if download_link is None:
